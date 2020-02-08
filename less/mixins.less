@@ -20,14 +20,14 @@
             color: black;
         }
     }
-}
-
+}   
+    
 .btn-settings(@radius, @v-padding, @h-padding) {
     display: inline-block;
-    background-color: black;
     border-radius: @radius;
     padding: @v-padding @h-padding;
-      
+    background-color: #22283A;
+    
     a {
         color: white;
         text-decoration: none;
@@ -35,7 +35,14 @@
     }
 
     &:hover {
-    background-color: #5E6164;
+        background-color: #5E6164;
+    }
+
+    @media @phone {
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+        text-align: center;
     }
 }
 
