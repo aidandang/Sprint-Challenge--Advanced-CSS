@@ -34,13 +34,41 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+ANSWER:
+
+Adaptive Website
+An adaptive website is combined of several fixed-layouts for different devices at breakpoints. Media queries are used with static units so it is an easy way to show multiple contents but only in some specific devices required from users but not many.
+
+Fully responsive website
+A responsive website is combined of fixed, adaptive, and fluid websites. It focus on accessibility. Media queries are used with relative and responsive units so it can be applied across thousands of devices and screen sizes.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+ANSWER: 
+
+Desktop first designs aimed for desktops where there are breakpoints for small devices like tablets or mobiles.
+
+Mobile first designs aimed for smartphones or other mobile devices with some breakpoints for bigger devices like desktops or normal laptops.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+ANSWER:
+
+It is declared as 62.5% of a chosen standard font-size (usually 16px) in a browser. It is a root or 1 unit (equal 10px in standard) when using rem units. Example: 1.6 rem equal 16px font-size, 4.8 rem equal 48px font-size.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+ANSWER:
+
+Preprocessing is a process of using another program language such as LESS to create more robust syntax CSS then compile to normal CSS. Using preprocessing languages help developers easier and more organized in coding CSS especially in big and complicated projects with thousands of coding lines.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+ANSWER:
+
+My favorite concept in preprocessing is nesting cause It helps me write and organize my code to look more logic and easy to read like other program languages.
+
+The concept that gives my trouble most is merge which is complicated, uncommon in syntax and there are many other simple ways to get the same result.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

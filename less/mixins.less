@@ -1,1 +1,48 @@
 // Mixins Here
+
+.nav-general-settings() {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-color: #f6f6f6;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.nav-a-settings() {
+    a {
+        font-size: 1.6rem;
+        text-decoration: none;
+        color: #5E6164;
+
+        &:hover {
+            color: black;
+        }
+    }
+}   
+    
+.btn-settings(@radius, @v-padding, @h-padding) {
+    display: inline-block;
+    border-radius: @radius;
+    padding: @v-padding @h-padding;
+    background-color: #22283A;
+    
+    a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.6rem;
+    }
+
+    &:hover {
+        background-color: #5E6164;
+    }
+
+    @media @phone {
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+        text-align: center;
+    }
+}
+
